@@ -2,7 +2,7 @@
 
 <div>
   <label>Enter Length</label>
-  <input (input)="onLengthChange()" />
+  <input (input)="onLengthChange($event)" />
 </div>
 <div>
   <input (change)="onChangeUseLetters()" type="checkbox" />
