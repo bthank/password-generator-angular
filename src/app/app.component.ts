@@ -49,7 +49,7 @@ export class AppComponent {
     `);
   }
 
-  onLengthChange(event: any) {
+  onChangeLength(event: any) {
     const parsedValue = parseInt(event.target.value);
     if (!isNaN(parsedValue)) {
       this.length = parsedValue;
